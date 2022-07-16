@@ -69,3 +69,34 @@ h1{
 	background-color: burlywood;
 
 }
+.search-bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding:6px;
+    border-radius: 20px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-bar form button{
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: nano;
+    cursor: pointer;
+}
+.search-bar form button{
+    width: 15px;
+    margin-top: 7px;
+}
