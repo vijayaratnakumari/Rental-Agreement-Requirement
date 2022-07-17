@@ -9,43 +9,82 @@
       <div class="register">
         <h2> Basic Details</h2>
         <form id="register" method="post">
-            <label> First Name:</label>
+            <label>Full Name:</label>
             <br>
-            <input type="text" name="fname" id="name" placeholder="Enter your First Name">
+            <input type="text" maxlength="10"name="fname" id="name" placeholder="Enter your Full Name">
             <br><br>
-            <label> Last Name: </label>
-            <br>
-            <input type="text" name="lname" id="name" placeholder="Enter your Last Name">
-            <br><br>
-            <label> Your Age: </label>
+            <label>  Your Age: </label>
             <br>
             <input type="text" name="age" id="name" placeholder="How old are your?">
             <br><br>
-            <label>Enter Your phone Number: </label>
+            <label> Enter Your phone Number: </label>
             <br>
-            <input placeholder="Enter your phone number" 
-            type="text" 
-            name="idnumber" pattern="[0-9]{10}"/><br>
+            <input type="text" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" placeholder="Enter your phone number"/>
             <br><br>
-            <label> Email:</label>
+            <label>Email:</label>
             <br>
             <input type="email" name="email" id="name" placeholder="Enter your Valid Email">
             <br><br>
-            <label>Stamp</label><br>
-            <input type="text" name="Stamp" id="name" placeholder="100/- Rupees">
-            <br><br>
-            <label> Gender </label>
-            <br>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="Gender" id="male">
-            &nbsp;
-            <span id="male"> Male</span>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="Gender" id="female">
-            &nbsp;
-            <span id="female"> Female</span>
-            <br><br>
-            <input type="submit" value="Submit" name="submit" id="submit">
+           
+                <label for="States"> States</label><br>
+                
+                <select id="State">
+                    <option value="Seletct your State"> select your State</option>
+                    <option value="Andhra Pradesh"> Andhra Pradesh</option><br>
+                    <option value="Telangana">Telangana</option><br>
+                    <option value="Maharastra"> Maharastra</option><br>
+                    <option value="Mumbai"> Mumbai</option><br>
+                    <option value="Tamilnadu"> Tamilnadu</option><br>
+                    <option value="Uttar Pradesh"> Uttar Pradesh</option><br>
+                    <option value="Madhya Pradesh"> Madhya Pradesh</option><br>
+                    <option value="Arunachal Pradesh"> Arunachal Pradesh</option><br>
+                    <option value="Meghalay"> Meghalay</option><br>
+                    <option value="Karnataka"> Karnataka</option><br>
+                    <option value="Keral"> Keral</option><br>
+
+                </select>
+                <br><br>
+                <label for="Districs"> Districs</label><br>
+                
+                <select id="Districts">
+                    <option value="Seletct your Districts">Select your District</option>
+                    <option value="Guntur"> Guntur</option>
+                    <option value="Bapatla"> Bapatla</option>
+                    <option value="prakasam"> prakasam</option>
+                    <option value="Krishna">Krishna</option>
+                    <option value="godavari"> godavari</option>
+                    <option value="neluru"> neluru</option>
+                    <option value="repala"> repala</option>
+                    <option value="chirala"> chirala</option>
+                    <option value="Meghalay"> Meghalay</option>
+                    <option value="Karnataka"> Karnataka</option>
+                    <option value="Keral"> Keral</option>
+
+                </select>
+                <br><br>      
+                <label>Stamp</label><br>
+                <select id="Stamp">
+                   <option value="₹100 Rupees Stamp">₹100 Rupees Stamp</option>
+                   <option value="₹100">₹100</option><br>
+
+                </select><br><br>
+                <label>Gender </label>
+                <br>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender" id="male">
+                &nbsp;
+                <span id="male"> Male</span>
+                <input type="radio" name="Gender" id="female">
+                &nbsp;
+                <span id="female"> Female</span>
+                <br><br>
+                <label>I am a/an</label><br><br>
+                <input type="submit" value ="Tenant">
+                <input type="submit" value ="Landlord">
+                <input type="submit" value ="Agent">
+                <br><br>
+                <input type="submit" value="Submit" name="submit" id="submit">
+ 
         </form>
 </div> <!--end register--->
 </div><!--end main-->   
