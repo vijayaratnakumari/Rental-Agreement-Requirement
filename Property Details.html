@@ -2,6 +2,35 @@
 <html>
     <head>
         <title>Property Details</title>
+        <style>
+            body{
+    background: url("images/image-10.png");
+    background-size: 50%;
+    background-position: -100px 0px;
+}
+form#register{
+    margin: 40px;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+input #name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+</style>
+</head>
+<body>
         <h1>Property Details</h1>
         <p>Floor No (Select Field. Choices: G, 1, 2, 3 … 100)</p>
         <form>
@@ -32,16 +61,19 @@
                 <option value="4BHK">4BHK</option>
             </select>
             <br><br>
-            <label for="House No">House No</label>
+            <label for="House No">House No:</label>
+            <input type="text" name="House" id="name" placeholder="House Number">
             <br><br>
-            <label for="Property Address">Property Address</label>
+            <label for="Property Address">Property Address: </label>
+            <input type="text" name="Address" id="name" placeholder="Property Address">
             <br><br>
-            <label for="Locality">Locality</label>
+            <label for="Locality">Locality: </label>
+            <input type="text" name="Locality" id="name" placeholder="Locality">
             <br><br>
-            <label for="Pincode">Pincode</label>
+            <label for="Pincode">Pincode: </label>
+            <input type="text" name="Pincode" id="name" placeholder="Enter your Pincode">
             <br><br>
-            <label for="States"> States</label>
-            <br>
+            <label for="States"> States:  </label>
                 <select id="State">
                     <option value="Seletct your State"> select your State</option>
                     <option value="Andhra Pradesh"> Andhra Pradesh</option><br>
@@ -58,7 +90,7 @@
 
                 </select>
                 <br><br>
-                <label for="Districs"> Districs</label><br>
+                <label for="Districs"> Districs: </label>
                 
                 <select id="Districts">
                     <option value="Seletct your Districts">Select your District</option>
@@ -77,5 +109,5 @@
                 </select>
                 <br><br> 
         </form>
-    </head>
+    </body>
 </html>
