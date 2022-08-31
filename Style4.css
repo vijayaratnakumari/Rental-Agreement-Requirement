@@ -5,8 +5,8 @@
 
 body{
     background: url("images/house-4.png");
-    background-size: 80%;
-    background-position: -150px 0px;
+    background-size: cover;
+    background-position: -10px;
 }
 
 div.main{

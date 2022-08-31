@@ -1,12 +1,13 @@
 *{
 	margin: 0;
 	padding: 0;
+    font-family: sans-serif;
 	
 }
 body{
-    background: url("images/house-5.png");
-    background-size: 50%;
-    background-position: -100px 0px;
+    background-image: url(images/banner.png);
+    background-position: -none;
+    background-size: cover;
 }
 .contack-form{
     max-width: 350px;

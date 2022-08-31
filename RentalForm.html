@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title> Rental Agreement From</title>
+        <link rel="stylesheet" href="Style.css" type="text/css">
+    </head>
+    <body>
+        <center><h3 style="color: green;"> Welcome to Rental Agreement Requirement</h3></center>
+        <marquee> Welcome to Rental Agreement Requirement</marquee>
+
+        <div class="container">
+            <h2> Create New Agreement </h2><br><br>
+
+            <form>
+                <label for="States"> States</label>
+                
+                <select id="State">
+                    <option value="Seletct your State"> Select your State</option>
+                    <option value="Andhra Pradesh"> Andhra Pradesh</option><br>
+                    <option value="Telangana">Telangana</option><br>
+                    <option value="Maharastra"> Maharastra</option><br>
+                    <option value="Mumbai"> Mumbai</option><br>
+                    <option value="Tamilnadu"> Tamilnadu</option><br>
+                    <option value="Uttar Pradesh"> Uttar Pradesh</option><br>
+                    <option value="Madhya Pradesh"> Madhya Pradesh</option><br>
+                    <option value="Arunachal Pradesh"> Arunachal Pradesh</option><br>
+                    <option value="Meghalay"> Meghalay</option><br>
+                    <option value="Karnataka"> Karnataka</option><br>
+                    <option value="Keral"> Keral</option><br>
+
+                </select>
+                
+                <label for="Districs"> Districs</label>
+                
+                <select id="Districts">
+                    <option value="Seletct your Districts">Select your District</option>
+                    <option value="Guntur"> Guntur</option>
+                    <option value="Bapatla"> Bapatla</option>
+                    <option value="prakasam"> prakasam</option>
+                    <option value="Krishna">Krishna</option>
+                    <option value="godavari"> godavari</option>
+                    <option value="neluru"> neluru</option>
+                    <option value="repala"> repala</option>
+                    <option value="chirala"> chirala</option>
+                    <option value="Meghalay"> Meghalay</option>
+                    <option value="Karnataka"> Karnataka</option>
+                    <option value="Keral"> Keral</option>
+
+                </select>  
+                <div class="btn-box">
+                <button type="button"> Create your Rent Agreement </button>    
+                </div>  
+            </form>
+            <form id="register" method="post">
+                <h2> Basic Details</h2>
+                      <label>Full Name:</label>
+                      <br>
+                      <input type="text" maxlength="255"name="fname" id="name" placeholder="Enter your Full Name">
+                      <br><br>
+                      <label>  Your Age: </label>
+                      <br>
+                      <input type="text" name="age" id="name" placeholder="How old are your?">
+                      <br><br>
+                      <label> Enter Your phone Number: </label>
+                      <br>
+                      <input type="text" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" placeholder="Enter your phone number"/>
+                      <br><br>
+                      <label>Email:</label>
+                      <br>
+                      <input type="email" name="email" id="name" placeholder="Enter your Valid Email">
+                      <br><br>
+                     
+                          <label for="States"> States</label><br>
+                          
+                          <select id="State">
+                              <option value="Seletct your State"> select your State</option>
+                              <option value="Andhra Pradesh"> Andhra Pradesh</option><br>
+                              <option value="Telangana">Telangana</option><br>
+                              <option value="Maharastra"> Maharastra</option><br>
+                              <option value="Mumbai"> Mumbai</option><br>
+                              <option value="Tamilnadu"> Tamilnadu</option><br>
+                              <option value="Uttar Pradesh"> Uttar Pradesh</option><br>
+                              <option value="Madhya Pradesh"> Madhya Pradesh</option><br>
+                              <option value="Arunachal Pradesh"> Arunachal Pradesh</option><br>
+                              <option value="Meghalay"> Meghalay</option><br>
+                              <option value="Karnataka"> Karnataka</option><br>
+                              <option value="Keral"> Keral</option><br>
+          
+                          </select>
+                          <br><br>
+                          <label for="Districs"> Districs</label><br>
+                          
+                          <select id="Districts">
+                              <option value="Seletct your Districts">Select your District</option>
+                              <option value="Guntur"> Guntur</option>
+                              <option value="Bapatla"> Bapatla</option>
+                              <option value="prakasam"> prakasam</option>
+                              <option value="Krishna">Krishna</option>
+                              <option value="godavari"> godavari</option>
+                              <option value="neluru"> neluru</option>
+                              <option value="repala"> repala</option>
+                              <option value="chirala"> chirala</option>
+                              <option value="Meghalay"> Meghalay</option>
+                              <option value="Karnataka"> Karnataka</option>
+                              <option value="Keral"> Keral</option>
+          
+                          </select>
+                          <br><br>      
+                          <label>Stamp</label><br>
+                          <select id="Stamp">
+                             <option value="₹100 Rupees Stamp">₹100 Rupees Stamp</option>
+                             <option value="₹100">₹100</option><br>
+          
+                          </select><br><br>
+                          <label>Gender </label>
+                          <br>
+                          &nbsp;&nbsp;&nbsp;
+                          <input type="radio" name="Gender" id="male">
+                          &nbsp;
+                          <span id="male"> Male</span>
+                          <input type="radio" name="Gender" id="female">
+                          &nbsp;
+                          <span id="female"> Female</span>
+                          <br><br>
+                          <label>I am a/an</label><br><br>
+
+                          <div class="btn-box">
+                            <input type="submit" value ="Tenant">
+                            <input type="submit" value ="Landlord">
+                            <input type="submit" value ="Agent">
+                             
+                            </div>  
+                            <br>
+                          
+                          <br><br>
+                          <input type="submit" value="Submit" name="submit" id="submit">
+           
+                  </form>
+        </div>
+    </body>
+</html>
